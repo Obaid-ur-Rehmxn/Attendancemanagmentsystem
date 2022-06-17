@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    overflow-x: hidden;
+    overflow-y:hidden;
+}
+.form{
+    height: 100%;
+    width: 100%;
+    margin:10px 20px;
+}
+.admin{
+    height: 100%;
+    width: 100%;
+}
+.user{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.sec1{
+    background-color: white;
+    width: 10%;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    bottom: 10px;
+    border-radius: 8px;
+}
+.sec2{
+    width: 85%;
+    position: absolute;
+    left: 13%;
+    top: 10px;
+    bottom: 10px;
+    right: 20px;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    width:100%;
+    height: 7%;
+    padding: 7px 0;
+}
+.showdata{
+    padding: 10px;
+    position: absolute;
+    top: 10%;
+    bottom: 45%;
+    right: 20px;
+    left: 20px;
+    background-color: white;
+    border-radius: 15px;
+}
+.showdata1{
+    position: absolute;
+    top: 57%;
+    bottom: 10px;
+    right: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+}
+.leaveapproval{
+    padding: 10px;
+    width: 60%;
+    background-color: white;
+    border-radius: 15px;
+    height: 95%;
+}
+.grade{
+    padding: 10px;
+    margin-left: 5px;
+    width: 40%;
+    height: 95%;
+    background-color: white;
+    border-radius: 15px;
+}
+.datetime{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+}
+.datetime h3{
+    padding: 0 4px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 23%;
+    padding: 5px 0;
+}
+.card{
+    background-color: white;
+    height: 100%;
+    width: 33.33%;
+    margin:0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.card p{
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+}
+.abc{
+    width: 60%;
+}
+.card img{
+    width: 80px;
+}
+.colora{
+    background-color: rgb(110,233,152);
+}
+.colorb{
+    background-color: rgb(255,129,111);
+}
+.colorc{
+    background-color: rgb(62,181,216);
+}
+.attendance{
+    display: none;
+    background-color: white;
+    border-radius: 15px;
+    padding: 8px 15px;
+    position: absolute;
+    left: 0;
+    top: 35%;
+    right: 0;
+    bottom: 10px;
+}
+.attendance1{
+    display: none;
+    background-color: white;
+    border-radius: 15px;
+    padding: 8px 15px;
+    position: absolute;
+    left: 0;
+    top: 35%;
+    right: 0;
+    bottom: 10px;
+}
+.leavesubmit{
+    padding: 8px;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+}
+.button{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 2px solid whitesmoke;
+    text-align: center;
+}
+.button:hover{
+    background-color: whitesmoke;
+}
+.button img{
+    width: 40px;
+    height: 40px;
+}
+.profile{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 2px solid whitesmoke;
+    text-align: center;
+}
+.profile img{
+    width: 100px;
+    height: 100px;
+}
+.input{
+    width: 300px;
+    padding: 8px 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 15px;
+}
+.table1{
+    margin: 10px 15px;
+    position: absolute;
+    top: 45px;
+    bottom: 10px;
+    right: 15px;
+    left: 15px;
+}
+.table4{
+    margin: 10px 15px;
+    position: absolute;
+    bottom: 10px;
+    top: 10px;
+    right: 10px;
+    left: 60%;
+}
+.table3{
+    margin: 10px 15px;
+    position: absolute;
+    bottom: 10px;
+    top: 10px;
+    right: 40%;
+    left: 10px;
+}
+.table2{
+    margin: 10px 15px;
+    position: absolute;
+    bottom: 10px;
+    top: 10px;
+    right: 10px;
+    left: 10px;
+}
+.table{
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.styled-table {
+    border-collapse: collapse;
+    font-size: 0.9em;
+    width: 100%;
+}
+.leavechange{
+    padding: 5px 10px;
+    color: white;
+    background-color: #138913;
+    border: 1px solid #138913;
+    border-radius: 4px;
+}
+.alldatasave{
+    padding: 5px 10px;
+    color: white;
+    background-color: #138913;
+    border: 1px solid #138913;
+    border-radius: 4px;
+}
+.leavechange1{
+    padding: 5px 10px;
+    color: white;
+    background-color: #e50a0a;
+    border: 1px solid #e50a0a;
+    border-radius: 4px;
+    margin-left: 3px;
+}
+.tableinput{
+    border: none;
+    padding: 8px 10px;
+}
+.styled-table thead tr {
+    background-color: black;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 8px 10px;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid black;
+}
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: black;
+}
